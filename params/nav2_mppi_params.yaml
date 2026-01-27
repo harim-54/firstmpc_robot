@@ -1,0 +1,5 @@
+ros2 설치 후
+src/my_robot_controller/params/nav2_mppi_params.yaml
+내용이 매우 길기 때문에, 파일 안에 controller_server 섹션을 찾아
+MPPIController 플러그인이 설정되었는지 확인
+(기존 Nav2 기본 파일에서 plugin: "nav2_mppi_controller::MPPIController"부분만 수정함녀 됨.)
