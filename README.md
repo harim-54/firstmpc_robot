@@ -22,3 +22,6 @@ Receding Horizon Control : 후퇴 예측 제어
 
   - https://www.sciencedirect.com/science/article/pii/S0167691108001795
 
+
+# legged_control : 다족 보행 로봇 NMPC
+https://github.com/qiayuanl/legged_control
