@@ -24,4 +24,15 @@ Receding Horizon Control : 후퇴 예측 제어
 
 
 # legged_control : 다족 보행 로봇 NMPC
-https://github.com/qiayuanl/legged_control
+  - https://github.com/qiayuanl/legged_control
+
+# quadruped_nmpc_dcbf_duality : 다족 보행 로봇의 좁은 환경에서의 이중성 기반 최적화
+  - https://github.com/HybridRobotics/quadruped_nmpc_dcbf_duality
+  - 이중성 기반 최적화 : 원 문제(primal) + 이중 문제(dual)의 이중성을 이용하는 최적화
+        - 보통 원 문제는 직접 비용함수를 최소로 하는 제어 입력을 구하는 것이고, 이중 문제는 라그랑주 승수를 이용하여 직접적으로 제어입력을 알아내는 것이 아닌, 벌칙(penalty)를 계산하여 이를 최대로 하는 지점을 구하는 것.
+    
+  - 라그랑주 이중성(Lagrangian Duality) : 원문제는 제약을 무조건 지키면서 최소화해야하는 반면, 이중 문제의 경우 u에 대해 최소화한 함수를 만들고 벌금 계수 람다를 조절하며 최대화할 수 있다.
+
+  - https://arxiv.org/pdf/2212.14199
+
+  - 
