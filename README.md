@@ -35,4 +35,5 @@ Receding Horizon Control : 후퇴 예측 제어
 
   - https://arxiv.org/pdf/2212.14199
 
-  - 
+# GA-aided-NMPC-tuning : GA 지원의 NMPC 튜닝
+  - https://github.com/winwinashwin/GA-aided-NMPC-tuning
